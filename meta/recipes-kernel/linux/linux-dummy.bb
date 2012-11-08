@@ -9,7 +9,7 @@ PROVIDES += "virtual/kernel"
 PACKAGES_DYNAMIC += "kernel-module-*"
 PACKAGES_DYNAMIC += "kernel-image-*"
 
-#COMPATIBLE_MACHINE = "your_machine"
+COMPATIBLE_MACHINE = "your_machine"
 
 PR = "r1"
 
